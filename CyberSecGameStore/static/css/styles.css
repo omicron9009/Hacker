@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+}
+
+.hacked {
+    background: black;
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    animation: glitch 1s infinite;
+}
+
+@keyframes glitch {
+    0% { text-shadow: 2px 2px red; }
+    50% { text-shadow: -2px -2px blue; }
+    100% { text-shadow: 2px 2px red; }
+}
+
+#ip-info {
+    margin-top: 30px;
+    font-size: 20px;
+    color: yellow;
+}
